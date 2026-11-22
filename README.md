@@ -2,7 +2,10 @@
 
 Système Expert de Recommandation de Films et Séries avec Prolog.
 
-## 📁 Structure du Projet
+![Uploading image.png…]()
+
+
+## Structure du Projet
 
 ```
 cinemasima_simple/
@@ -17,7 +20,7 @@ cinemasima_simple/
 └── README.md          # Ce fichier
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 ```bash
@@ -28,7 +31,7 @@ sudo apt-get install swi-prolog
 pip install flask pyswip
 ```
 
-## 💻 Utilisation
+## Utilisation
 
 ### Mode 1: Interface Web
 ```bash
@@ -50,7 +53,7 @@ swipl
 ?- demo.
 ```
 
-## 📊 Formule de Scoring
+## Formule de Scoring
 
 ```
 Score = min(100, Score_genres + Score_note + Bonus)
@@ -60,7 +63,7 @@ Score = min(100, Score_genres + Score_note + Bonus)
 - Bonus = +10 durée OK, +10 année OK, +5 acteur, +5 réalisateur
 ```
 
-## 🎯 Exemple d'Utilisation
+## Exemple d'Utilisation
 
 ### Prolog Console
 ```prolog
@@ -81,14 +84,14 @@ Score = min(100, Score_genres + Score_note + Bonus)
 4. Cliquer sur "Générer"
 5. Voir les 5 meilleures recommandations!
 
-## 📝 Base de Données
+## Base de Données
 
 - **40 Films** : Action, Drama, Comedy, Thriller, Horror, Animation, etc.
 - **40 Séries** : Crime, Sci-Fi, Drama, Comedy, etc.
 
 Chaque contenu a : Titre, Genres, Réalisateur, Acteurs, Année, Durée, Note
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 ✅ Scoring transparent avec formule explicite  
 ✅ Explications détaillées pour chaque recommandation  
@@ -96,11 +99,11 @@ Chaque contenu a : Titre, Genres, Réalisateur, Acteurs, Année, Durée, Note
 ✅ Filtrage par genres, durée, année  
 ✅ Support acteurs/réalisateurs préférés  
 
-## 🎓 Projet Académique
+## Projet Académique
 
 Module: Fondements avancés de l'IA  
 Filière: Master IA - S1  
-Institution: ENSA Marrakech  
+Institution: FSSM Marrakech  
 Année: 2025-2026
 
 ---
